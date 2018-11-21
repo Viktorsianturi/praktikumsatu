@@ -1,16 +1,21 @@
 #include <iostream>
-using namespace std;
-int main(int argc, char const *argv[])
-{ int nilai,hasil;
-	cout<<"menentukan ganjil dan genap"<<endl;
-	cout<<10;
-	cin>>nilai;
-	hasil=nilai%2;
-	cout<<"hasilnya adalah =";
-	if (hasil==0)
-		cout<<"genap";
-	else
-		cout<<"ganjil";
 
-	return 0;
+using namespace std;
+
+int main(int argc, char const *argv[])
+{
+	int a,b;
+	cout<<"menentukan nilai terbesar";
+	cout<<"masukan nilai 1:";
+	cin>>a;
+	cout<<"masukan nila 2:";
+	cin>>b;
+
+	if (a>b)
+		cout<<"nilai terbesar:"<< a <<endl;
+	else
+		cout<<"nilai terbesar"<< b <<endl;
+
+		return 0;
+
 }
