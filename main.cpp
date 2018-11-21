@@ -1,15 +1,16 @@
 #include <iostream>
 using namespace std;
 int main(int argc, char const *argv[])
-{
-	int p,l,luas;
+{ int nilai,hasil;
+	cout<<"menentukan ganjil dan genap"<<endl;
+	cout<<10;
+	cin>>nilai;
+	hasil=nilai%2;
+	cout<<"hasilnya adalah =";
+	if (hasil==0)
+		cout<<"genap";
+	else
+		cout<<"ganjil";
 
-
-	p=13;
-	l=6;
-
-
-	luas=p*l;
-	cout<<luas;
 	return 0;
 }
